@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background: linear-gradient(135deg, #ff6a88, #ff99ac);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background: white;
+  padding: 25px;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+  max-width: 420px;
+  width: 90%;
+  position: relative;
+}
+
+h1 {
+  color: #cc0066;
+}
+
+.love-img {
+  width: 100%;
+  max-width: 260px;
+  border-radius: 15px;
+  margin: 15px 0;
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+button {
+  padding: 12px 25px;
+  font-size: 16px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.yes-btn {
+  background: #ff2e63;
+  color: white;
+}
+
+.no-btn {
+  background: #333;
+  color: white;
+  position: absolute;
+}
+
+#celebration {
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+/* Dance animation */
+.dance-img {
+  width: 250px;
+  margin-top: 15px;
+}
+
+/* Responsive */
+@media (max-width: 480px) {
+  h1 {
+    font-size: 22px;
+  }
+}
